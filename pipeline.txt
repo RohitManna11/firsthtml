@@ -1,0 +1,31 @@
+new maven proj
+configure
+build
+new pipeline
+
+pipeline {
+  agent any
+  stages{
+   stage("build"){
+    steps{
+     echo"Rohit"
+    }
+   }
+   stage("test"){
+    steps{
+      echo"from TEC"
+    }
+   }
+   stage("deploy"){
+    steps{
+      echo"Third Year"
+    }
+   }
+  }
+}
+
+build
+pipeline syntax
+add credentials
+post script to pipeline
+
