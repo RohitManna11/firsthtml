@@ -1,0 +1,17 @@
+java -version
+sudo apt install openjdk-8-jdk
+java -version
+
+sudo apt install git
+git --version
+
+sudo apt install maven
+mvn -version
+
+sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add .
+sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt-get install jenkins
+sudo systemctl status jenkins
+sudo systemctl start jenkins
+sudo cat <directory>
