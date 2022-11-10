@@ -1,0 +1,5 @@
+manage nodes
+permanent agent
+configure
+agent.jar
+in cmd run code
